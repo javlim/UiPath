@@ -1,0 +1,14 @@
+﻿{
+  "Name": "EDGE_Tricentis-Sampleapp-Vehicle Insurance",
+  "Type": "App",
+  "Id": "nXUpQIKigUak3auY1dg5Sg",
+  "Reference": "8WzCg_n0e0OKXm9Ae3p5sg/nXUpQIKigUak3auY1dg5Sg",
+  "Created": "2025-02-26T18:15:30.1650732Z",
+  "Updated": "2025-02-26T18:18:59.4683311Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

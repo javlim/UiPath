@@ -1,0 +1,16 @@
+﻿{
+  "Name": "linkApplicationType",
+  "Type": "Element",
+  "TaxonomyType": "Link",
+  "Id": "4wgUSpdgw0eSMBilZ3XbFg",
+  "Reference": "8WzCg_n0e0OKXm9Ae3p5sg/4wgUSpdgw0eSMBilZ3XbFg",
+  "ParentRef": "8WzCg_n0e0OKXm9Ae3p5sg/dGD174Nvg0SWPjEzcZDNTg",
+  "Created": "2025-02-26T18:20:07.4653895Z",
+  "Updated": "2025-02-26T18:25:51.0217417Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

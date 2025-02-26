@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Landing-Page",
+  "Type": "Screen",
+  "Id": "dGD174Nvg0SWPjEzcZDNTg",
+  "Reference": "8WzCg_n0e0OKXm9Ae3p5sg/dGD174Nvg0SWPjEzcZDNTg",
+  "ParentRef": "8WzCg_n0e0OKXm9Ae3p5sg/tcIzU4QjQ0KDimY_b0yUMQ",
+  "Created": "2025-02-26T18:15:45.1047298Z",
+  "Updated": "2025-02-26T18:17:10.3278881Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

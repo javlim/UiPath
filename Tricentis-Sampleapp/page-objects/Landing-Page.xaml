@@ -1,0 +1,162 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Landing_Page" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_strSelectApplicationType" Type="InArgument(x:String)" />
+  </x:Members>
+  <this:Landing_Page.in_strSelectApplicationType>
+    <InArgument x:TypeArguments="x:String" />
+  </this:Landing_Page.in_strSelectApplicationType>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Landing_Page" sap:VirtualizedContainerService.HintSize="796,655" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Landing-Page" sap:VirtualizedContainerService.HintSize="502,632" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="05f7f37b-8406-4962-ae2d-8511d3f018c4" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="468,392" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Default="Automobile" Name="strApplicationType" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">strApplicationType</CSharpReference>
+                </OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">in_strSelectApplicationType</CSharpValue>
+                </InArgument>
+              </Assign.Value>
+            </Assign>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'linkApplicationType'" sap:VirtualizedContainerService.HintSize="434,218" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="sampleapp.tricentis.com/101" CVScreenId="db085fdc-768d-4bfc-8762-5d9996da00c8" ContentHash="wHaHuk0zqkm5y6DbIWrBtA" DesignTimeRectangle="151, 232, 104, 22" DesignTimeScaleFactor="1" ElementType="Text" Guid="45b9cf8e-e39a-441a-8b42-872840339d52" InformativeScreenshot="75eb441e9f087e99e9aeb3322cdba406.png" Reference="8WzCg_n0e0OKXm9Ae3p5sg/4wgUSpdgw0eSMBilZ3XbFg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Tricentis Vehicle Insurance' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.FullSelectorArgument>
+                    <InArgument x:TypeArguments="x:String">
+                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">string.Format("&lt;webctrl tag='A' aaname='{0}' visibleinnertext='{0}' /&gt;", strApplicationType)</CSharpValue>
+                    </InArgument>
+                  </uix:TargetAnchorable.FullSelectorArgument>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1456, 868" ContentHash="DJYYagHsq0CzGfLzXmZLNw" IconBase64="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" InformativeScreenshot="c4769e22e7de20bca8471ba180cb4e17.jpg" Reference="8WzCg_n0e0OKXm9Ae3p5sg/dGD174Nvg0SWPjEzcZDNTg" Selector="&lt;html app='msedge.exe' title='Tricentis Vehicle Insurance' /&gt;" Title="Tricentis Vehicle Insurance" Url="https://sampleapp.tricentis.com/101/" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wHaHuk0zqkm5y6DbIWrBtA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sampleapp.tricentis.com/101" CVScreenId="db085fdc-768d-4bfc-8762-5d9996da00c8" DesignTimeRectangle="151, 232, 104, 22" DesignTimeScaleFactor="1" ElementType="Text" Guid="45b9cf8e-e39a-441a-8b42-872840339d52" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Tricentis Vehicle Insurance' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.FullSelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">string.Format("&lt;webctrl tag='A' aaname='{0}' visibleinnertext='{0}' /&gt;", strApplicationType)</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.FullSelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="75eb441e9f087e99e9aeb3322cdba406.png" xmlns="">0MlI0YQ-VHU6bQ-3dOoj0Qw</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="Automobile" Name="strApplicationType" />
+    </scg:List>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
